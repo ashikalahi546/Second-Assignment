@@ -6,7 +6,7 @@
     margin: 0px 20px;
   }
 }
-
+/* laptops device */
 @media screen and (max-width: 992px) {
   p,
   h6 {
@@ -77,6 +77,9 @@
 /* tablets device */
 
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
   .card {
     width: 100%;
     height: auto;
@@ -97,37 +100,70 @@
     height: auto;
     width: 100%;
   }
+  .our-mountain {
+    width: 50%;
+  }
+  .our-mountain img {
+    height: 350px;
+    width: 100%;
+  }
+
   .form-section {
     height: auto;
-    padding: 30px;
+    padding: 20px;
     width: 50%;
     gap: 18px;
   }
+  .form-section h3 {
+    font-size: 20px;
+  }
+
+  .destination-card,
+  .destination-card-one,
+  .destination-card-two,
+  .destination-card-three,
+  .destination-card-four,
+  .destination-card-five,
+  .destination-card-six {
+    height: 200px;
+  }
+
+  .destination-card h5,
+.destination-card-one h5,
+.destination-card-two h5,
+.destination-card-three h5,
+.destination-card-four h5,
+.destination-card-five h5,
+.destination-card-six h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
 
   .save-up-img {
     background-image: url("../images/Rectangle 8 (1).png");
     width: 50%;
-    height: 420px;
-    background-size: cover;
-    position: relative;
-    border-radius: 16px;
+    height: 360px;
   }
   .presentes {
     width: 220px;
-    height: auto;
-    padding: 20px 0px;
+    height: 80px;
+    /* padding: 20px 0px; */
     bottom: 32px;
     margin: 0px 8px;
   }
 
-
-  .form-section h3 {
+  .presentes h3 {
+    font-size: 16px;
+  }
+  .presentes h4 {
     font-size: 20px;
   }
 
   .footer-section {
     height: auto;
-    background: rgba(19, 19, 24, 0.05);
+    /* background: rgba(19, 19, 24, 0.05); */
     padding: 40px 0px;
   }
 }
@@ -256,25 +292,58 @@
     display: block;
   }
 
+  .get-lost-section {
+    flex-direction: column;
+  }
+  .get-lost-tiitle {
+    width: 100%;
+  }
+
+  .our-mountain {
+    width: 100%;
+  }
+
   .new-letter-section {
     flex-direction: column;
     gap: 30px;
   }
   .form-section {
     width: 100%;
+    padding: 30px;
   }
 
   .save-up-img {
-    background-image: url("../images/Rectangle 8 (1).png");
     width: 100%;
-    height: 420px;
-    background-size: cover;
-    position: relative;
-    border-radius: 16px;
+    height: 330px;
+  }
+  .presentes {
+    margin: 0px 8px;
+  }
+  .get-lost-tiitle p {
+    margin-top: 8px;
+  }
+  .get-lost-tiitle ul li {
+    margin: 12px 0px 0px 15px;
+  }
+  .get-lost-section {
+    margin-bottom: 40px;
   }
 
-  .presentes {
-    bottom: 32px;
-   margin: 0px 8px;
-  }
+  .our-destination,
+.our-destination-one,
+.our-destination-two {
+ flex-direction: column;
+  margin-top: 20px;
+}
+
+.destination-card,
+.destination-card-one,
+.destination-card-two,
+.destination-card-three,
+.destination-card-four,
+.destination-card-five,
+.destination-card-six {
+width: 100%;
+background-position: center;
+}
 }
